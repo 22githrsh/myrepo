@@ -1,0 +1,37 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page1 h1{
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.hovercircle{
+    height: 30px;
+    width: 30px;
+    background-color: aliceblue;
+    mix-blend-mode: none;
+}
